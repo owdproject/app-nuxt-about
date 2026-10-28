@@ -1,0 +1,39 @@
+export default {
+  id: 'org.owdproject.about',
+  title: 'About',
+  category: 'system-tools',
+  singleton: true,
+  icon: 'mdi:hexagon-multiple-outline',
+  windows: {
+    main: {
+      component: () => import('./components/Window/WindowAbout.vue'),
+      resizable: false,
+      size: {
+        width: 448,
+        height: 240,
+      },
+    },
+  },
+  entries: {
+    about: {
+      command: 'about',
+    },
+  },
+  terminal: {
+    about: {
+      description: 'Open the About window',
+    },
+  },
+  commands: {
+    about: (app: any) => {
+      const existing = app.getFirstWindowByModel('main')
+      if (existing) {
+        existing.actions.setActive(true)
+        existing.actions.bringToFront()
+        return existing
+      }
+
+      return app.openWindow('main')
+    },
+  },
+}
