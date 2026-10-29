@@ -27,7 +27,7 @@ Add the app to your `desktop.config.ts`:
 ```ts
 export default defineDesktopConfig({
   apps: [
-    '@owdproject/app-about'
+    '@owdproject/app-nuxt-about'
   ],
   about: {
     title: 'Open Web Desktop',

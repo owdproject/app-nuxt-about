@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/app-about",
+  "name": "@owdproject/app-nuxt-about",
   "version": "4.0.0-alpha.3",
   "description": "About App for your Open Web Desktop client",
   "keywords": [
@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "^4.4.6",
-    "@owdproject/kit-tailwind": "^4.0.0-alpha.3",
+    "@owdproject/kit-nuxt-tailwind": "^4.0.0-alpha.3",
     "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "peerDependencies": {
