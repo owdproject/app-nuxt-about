@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/app-nuxt-about-playground",
+  "name": "@owdproject/nuxt-app-about-playground",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,8 +9,8 @@
     "desktop": "desktop"
   },
   "dependencies": {
-    "@owdproject/app-nuxt-about": "workspace:*",
+    "@owdproject/nuxt-app-about": "workspace:*",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/theme-nuxt-nova": "^4.0.0-alpha.3"
+    "@owdproject/nuxt-theme-nova": "^4.0.0-alpha.3"
   }
 }

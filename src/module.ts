@@ -4,7 +4,7 @@ import {
   addComponentsDir,
   addPlugin,
 } from '@nuxt/kit'
-import { registerTailwindPath } from '@owdproject/kit-nuxt-tailwind/kit/registerTailwindPath'
+import { registerTailwindPath } from '@owdproject/nuxt-kit-tailwind/kit/registerTailwindPath'
 export default defineNuxtModule({
   meta: {
     name: 'desktop-app-about',
@@ -12,8 +12,8 @@ export default defineNuxtModule({
   },
   defaults: {
     title: 'Open Web Desktop',
-    subtitle: 'github.com/owdproject/client',
-    href: 'https://github.com/owdproject/client',
+    subtitle: 'github.com/owdproject/nuxt-desktop',
+    href: 'https://github.com/owdproject/nuxt-desktop',
     versionText: 'Nuxt {nuxtVersion} + Desktop {desktopVersion}',
     icons: []
   },

@@ -12,7 +12,7 @@
 
 This app for Open Web Desktop displays the version and other system information.
 
-[Demo](https://owdproject.github.io/app-about/) · [Documentation](https://owdproject.github.io/docs/) · [Support](https://github.com/sponsors/owdproject)
+[Demo](https://owdproject.github.io/nuxt-app-about/) · [Documentation](https://owdproject.github.io/docs/) · [Support](https://github.com/sponsors/owdproject)
 
 ## Installation
 
@@ -27,12 +27,12 @@ Add the app to your `desktop.config.ts`:
 ```ts
 export default defineDesktopConfig({
   apps: [
-    '@owdproject/app-nuxt-about'
+    '@owdproject/nuxt-app-about'
   ],
   about: {
     title: 'Open Web Desktop',
-    subtitle: 'github.com/owdproject/client',
-    href: 'https://github.com/owdproject/client',
+    subtitle: 'github.com/owdproject/nuxt-desktop',
+    href: 'https://github.com/owdproject/nuxt-desktop',
     versionText: 'v{desktopVersion} on Nuxt {nuxtVersion}',
     icons: [
       {
