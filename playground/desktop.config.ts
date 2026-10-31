@@ -1,7 +1,7 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/nuxt-theme-nova',
+  theme: '@owdproject/nuxt-theme-paper',
   apps: ['@owdproject/nuxt-app-about'],
   modules: [],
   systemBar: {
@@ -10,7 +10,7 @@ export default defineDesktopConfig({
   },
   about: {
     title: 'About (playground)',
-    subtitle: 'app-about · theme-nova',
+    subtitle: 'app-about · theme-paper',
     href: 'https://github.com/owdproject/nuxt-app-about',
     versionText: 'Nuxt Desktop',
     icons: [
